@@ -2,6 +2,8 @@
 
 This repository offers a real-time, WebGL-powered visualization of the Thomas attractor, an intriguing model in chaotic dynamics and mathematical visualization. Perfect for creative coding enthusiasts, this project demonstrates advanced WebGL techniques, interactive graphics, and the captivating nature of strange attractors. Explore the chaotic beauty of mathematical systems and enhance your skills in real-time graphics programming with this engaging and educational project.
 
+Feel free to check out some of my other repositories, where I’ve implemented various other attractors that you can view and navigate through.
+
 ### Features
 
 - **Real-Time Rendering**: The visualization updates in real-time, creating a continuous, evolving display of the attractor.
