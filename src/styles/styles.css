@@ -1,0 +1,38 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #000;
+}
+
+canvas {
+    display: block;
+}
+
+#overlay {
+    position: fixed;
+    top: 24px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    pointer-events: none;
+    z-index: 10;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#attractor-name {
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.7);
+    transition: opacity 0.4s ease;
+}
+
+#hint {
+    margin-top: 8px;
+    font-size: 11px;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    color: rgba(255, 255, 255, 0.25);
+}
