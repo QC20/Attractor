@@ -12,7 +12,7 @@
  */
 
 const canvas = document.createElement('canvas');
-canvas.style.background = '#fff';
+canvas.style.background = '#000';
 document.body.appendChild(canvas);
 
 const gl = canvas.getContext('webgl', { preserveDrawingBuffer: true });
@@ -23,11 +23,11 @@ const attractorDefs = [
 
     {
         name: 'Thomas Attractor',
-        color: [1.0, 1.0, 1.0],
+        color: [0.35, 0.55, 1.0],
         initRange: 3,
         zoom: 150,
         steps: 8,
-        stepSize: 0.005,
+        stepSize: 0.025,
         center: [0, 0, 0],
         perturbChance: 0.9999,
         perturbScale: 2.0,
@@ -43,11 +43,11 @@ const attractorDefs = [
 
     {
         name: 'Lorenz Attractor',
-        color: [1.0, 1.0, 1.0],
+        color: [1.0, 0.45, 0.2],
         initRange: 2,
         zoom: 420,
         steps: 12,
-        stepSize: 0.0008,
+        stepSize: 0.004,
         center: [0, 0, 27],
         perturbChance: 0.9998,
         perturbScale: 1.5,
@@ -63,11 +63,11 @@ const attractorDefs = [
 
     {
         name: 'Chen Attractor',
-        color: [1.0, 1.0, 1.0],
+        color: [0.2, 1.0, 0.5],
         initRange: 2,
         zoom: 450,
         steps: 12,
-        stepSize: 0.00008,
+        stepSize: 0.0004,
         center: [0, 0, 28],
         perturbChance: 0.9998,
         perturbScale: 1.5,
@@ -83,11 +83,11 @@ const attractorDefs = [
 
     {
         name: 'R\u00f6ssler Attractor',
-        color: [1.0, 1.0, 1.0],
+        color: [1.0, 0.25, 0.55],
         initRange: 2,
         zoom: 250,
         steps: 10,
-        stepSize: 0.0016,
+        stepSize: 0.008,
         center: [0, 0, 3],
         perturbChance: 0.9999,
         perturbScale: 1.3,
@@ -103,11 +103,11 @@ const attractorDefs = [
 
     {
         name: 'Aizawa Attractor',
-        color: [1.0, 1.0, 1.0],
+        color: [0.85, 0.7, 0.2],
         initRange: 0.1,
         zoom: 80,
         steps: 10,
-        stepSize: 0.0016,
+        stepSize: 0.008,
         center: [0, 0, 0],
         perturbChance: 0.9999,
         perturbScale: 1.2,
@@ -124,11 +124,11 @@ const attractorDefs = [
 
     {
         name: 'Halvorsen Attractor',
-        color: [1.0, 1.0, 1.0],
+        color: [0.5, 0.3, 1.0],
         initRange: 2,
         zoom: 220,
         steps: 10,
-        stepSize: 0.0008,
+        stepSize: 0.004,
         center: [0, 0, 0],
         perturbChance: 0.9999,
         perturbScale: 1.5,
@@ -144,11 +144,11 @@ const attractorDefs = [
 
     {
         name: 'Dadras Attractor',
-        color: [1.0, 1.0, 1.0],
+        color: [0.15, 0.85, 0.85],
         initRange: 1,
         zoom: 200,
         steps: 10,
-        stepSize: 0.0006,
+        stepSize: 0.003,
         center: [0, 0, 0],
         perturbChance: 0.9999,
         perturbScale: 1.4,
